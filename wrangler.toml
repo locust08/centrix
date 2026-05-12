@@ -1,16 +1,11 @@
 name = "centrix"
+main = "./dist/_worker.js/index.js"
 compatibility_date = "2026-05-12"
-pages_build_output_dir = "dist"
+compatibility_flags = [ "nodejs_compat" ]
 
-[[d1_databases]]
-binding = "D1"
-database_name = "centrix-payload"
-database_id = "replace-with-cloudflare-d1-id"
+[assets]
+binding = "ASSETS"
+directory = "./dist"
 
-[[r2_buckets]]
-binding = "R2"
-bucket_name = "centrix-payload-media"
-
-[[kv_namespaces]]
-binding = "SESSION"
-id = "replace-with-cloudflare-kv-id"
+[observability]
+enabled = true
