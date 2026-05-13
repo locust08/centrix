@@ -476,19 +476,21 @@
                   </div>
                   <div class="layout-filter-group" aria-label="Layout filters">
                     <div class="layout-chip-row" data-type-filters>
-                      <button class="layout-chip is-active" type="button" data-type-filter="all">All Types</button>
-                      <button class="layout-chip" type="button" data-type-filter="S">S Type</button>
-                      <button class="layout-chip" type="button" data-type-filter="ST">ST Type</button>
+                      <button class="layout-chip is-active" type="button" data-type-filter="all" aria-pressed="true">All Types</button>
+                      <button class="layout-chip" type="button" data-type-filter="S" aria-pressed="false">S Type</button>
+                      <button class="layout-chip" type="button" data-type-filter="ST" aria-pressed="false">ST Type</button>
                     </div>
                     <div class="layout-chip-row" data-bath-filters>
-                      <button class="layout-chip is-active" type="button" data-bath-filter="all">All Toilets</button>
-                      <button class="layout-chip" type="button" data-bath-filter="1">1 Toilet</button>
-                      <button class="layout-chip" type="button" data-bath-filter="2">2 Toilets</button>
+                      <button class="layout-chip is-active" type="button" data-bath-filter="all" aria-pressed="true">All Toilets</button>
+                      <button class="layout-chip" type="button" data-bath-filter="1" aria-pressed="false">1 Toilet</button>
+                      <button class="layout-chip" type="button" data-bath-filter="2" aria-pressed="false">2 Toilets</button>
                     </div>
                   </div>
                 </div>
-                <div class="layout-card-grid" data-layout-grid></div>
-                <div class="layout-detail-panel" data-layout-detail hidden></div>
+                <div class="layout-workspace">
+                  <div class="layout-card-grid" data-layout-grid aria-label="Layout options"></div>
+                  <div class="layout-detail-panel" data-layout-detail></div>
+                </div>
               </div>
             </div>
           </div>
@@ -506,21 +508,21 @@
       { id: "s5a", typeGroup: "S", type: "S5A", page: 6, pdf: "/files/Insert-Type-S-2801.pdf#page=6", beds: 1, baths: 2, size: "751 sq ft", level: "Level 12-22", category: "studio", label: "1 Bedroom" },
       { id: "s6", typeGroup: "S", type: "S6", page: 7, pdf: "/files/Insert-Type-S-2801.pdf#page=7", beds: 2, baths: 2, size: "1,039 sq ft", level: "Level 23-42", category: "dual-key", label: "Dual Key", recommended: true },
       { id: "s6a", typeGroup: "S", type: "S6A", page: 8, pdf: "/files/Insert-Type-S-2801.pdf#page=8", beds: 2, baths: 2, size: "845 sq ft", level: "Level 12-22", category: "dual-key", label: "Dual Key" },
-      { id: "s7", typeGroup: "S", type: "S7", page: 9, pdf: "/files/Insert-Type-S-2801.pdf#page=9", beds: 2, baths: 2, size: "843 sq ft", level: "Level 12-42", category: "2-bedroom", label: "2 Bedroom" },
+      { id: "s7", typeGroup: "S", type: "S7", page: 9, pdf: "/files/Insert-Type-S-2801.pdf#page=9", beds: 2, baths: 2, size: "843 sq ft", level: "Level 12-42", category: "2-bedroom", label: "2 Bedroom", recommended: true },
       { id: "s8", typeGroup: "S", type: "S8", page: 10, pdf: "/files/Insert-Type-S-2801.pdf#page=10", beds: 1, baths: 1, size: "639 sq ft", level: "Level 12-42", category: "studio", label: "Studio", recommended: true },
       { id: "s9", typeGroup: "S", type: "S9", page: 11, pdf: "/files/Insert-Type-S-2801.pdf#page=11", beds: 1, baths: 1, size: "752 sq ft", level: "Level 12-42", category: "studio", label: "Studio", recommended: true },
-      { id: "s10", typeGroup: "S", type: "S10", page: 12, pdf: "/files/Insert-Type-S-2801.pdf#page=12", beds: 1, baths: 1, size: "855 sq ft", level: "Level 12-42", category: "studio", label: "Studio", recommended: true },
+      { id: "s10", typeGroup: "S", type: "S10", page: 12, pdf: "/files/Insert-Type-S-2801.pdf#page=12", beds: 1, baths: 1, size: "855 sq ft", level: "Level 12-42", category: "studio", label: "Studio" },
       { id: "s11", typeGroup: "S", type: "S11", page: 13, pdf: "/files/Insert-Type-S-2801.pdf#page=13", beds: 2, baths: 2, size: "669 sq ft", level: "Level 12-22", category: "dual-key", label: "Dual Key" },
       { id: "s11a", typeGroup: "S", type: "S11A", page: 14, pdf: "/files/Insert-Type-S-2801.pdf#page=14", beds: 1, baths: 2, size: "997 sq ft", level: "Level 12-42", category: "studio", label: "Studio", recommended: true },
-      { id: "s11b", typeGroup: "S", type: "S11B", page: 15, pdf: "/files/Insert-Type-S-2801.pdf#page=15", beds: 1, baths: 2, size: "871 sq ft", level: "Level 23-42", category: "studio", label: "1+1 Bedroom", recommended: true },
+      { id: "s11b", typeGroup: "S", type: "S11B", page: 15, pdf: "/files/Insert-Type-S-2801.pdf#page=15", beds: 1, baths: 2, size: "871 sq ft", level: "Level 23-42", category: "studio", label: "1+1 Bedroom" },
       { id: "s12", typeGroup: "S", type: "S12", page: 16, pdf: "/files/Insert-Type-S-2801.pdf#page=16", beds: 1, baths: 1, size: "571 sq ft", level: "Level 23-42", category: "studio", label: "Studio" },
       { id: "s13", typeGroup: "S", type: "S13", page: 17, pdf: "/files/Insert-Type-S-2801.pdf#page=17", beds: 2, baths: 2, size: "646 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
       { id: "s14", typeGroup: "S", type: "S14", page: 18, pdf: "/files/Insert-Type-S-2801.pdf#page=18", beds: 1, baths: 1, size: "564 sq ft", level: "Level 12-42", category: "studio", label: "1 Bedroom" },
-      { id: "s15", typeGroup: "S", type: "S15/15A", page: 19, pdf: "/files/Insert-Type-S-2801.pdf#page=19", beds: 2, baths: 2, size: "891 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key", recommended: true },
+      { id: "s15", typeGroup: "S", type: "S15/15A", page: 19, pdf: "/files/Insert-Type-S-2801.pdf#page=19", beds: 2, baths: 2, size: "891 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
       { id: "s16", typeGroup: "S", type: "S16", page: 20, pdf: "/files/Insert-Type-S-2801.pdf#page=20", beds: 2, baths: 2, size: "593 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
       { id: "s17", typeGroup: "S", type: "S17", page: 21, pdf: "/files/Insert-Type-S-2801.pdf#page=21", beds: 2, baths: 2, size: "646 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
       { id: "s18", typeGroup: "S", type: "S18", page: 22, pdf: "/files/Insert-Type-S-2801.pdf#page=22", beds: 2, baths: 2, size: "777 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
-      { id: "s19", typeGroup: "S", type: "S19", page: 23, pdf: "/files/Insert-Type-S-2801.pdf#page=23", beds: 2, baths: 2, size: "810 sq ft", level: "Level 12-42", category: "2-bedroom", label: "2 Bedroom" },
+      { id: "s19", typeGroup: "S", type: "S19", page: 23, pdf: "/files/Insert-Type-S-2801.pdf#page=23", beds: 2, baths: 2, size: "810 sq ft", level: "Level 12-42", category: "2-bedroom", label: "2 Bedroom", recommended: true },
       { id: "st1", typeGroup: "ST", type: "ST1", page: 1, pdf: "/files/Type-ST-Insert-260130.pdf#page=1", beds: 1, baths: 1, size: "599 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom" },
       { id: "st2", typeGroup: "ST", type: "ST2", page: 2, pdf: "/files/Type-ST-Insert-260130.pdf#page=2", beds: 1, baths: 1, size: "568 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom" },
       { id: "st3", typeGroup: "ST", type: "ST3", page: 3, pdf: "/files/Type-ST-Insert-260130.pdf#page=3", beds: 1, baths: 1, size: "578 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom" },
@@ -535,10 +537,10 @@
       { id: "st12", typeGroup: "ST", type: "ST12", page: 12, pdf: "/files/Type-ST-Insert-260130.pdf#page=12", beds: 2, baths: 2, size: "608 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key" },
       { id: "st13", typeGroup: "ST", type: "ST13", page: 13, pdf: "/files/Type-ST-Insert-260130.pdf#page=13", beds: 2, baths: 2, size: "916 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key", recommended: true },
       { id: "st14", typeGroup: "ST", type: "ST14", page: 14, pdf: "/files/Type-ST-Insert-260130.pdf#page=14", beds: 2, baths: 1, size: "720 sq ft", level: "Level 3A-10", category: "2-bedroom", label: "2 Bedroom", recommended: true },
-      { id: "st15", typeGroup: "ST", type: "ST15", page: 15, pdf: "/files/Type-ST-Insert-260130.pdf#page=15", beds: 2, baths: 2, size: "1,193 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key", recommended: true },
+      { id: "st15", typeGroup: "ST", type: "ST15", page: 15, pdf: "/files/Type-ST-Insert-260130.pdf#page=15", beds: 2, baths: 2, size: "1,193 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key" },
       { id: "st16", typeGroup: "ST", type: "ST16", page: 16, pdf: "/files/Type-ST-Insert-260130.pdf#page=16", beds: 2, baths: 2, size: "637 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key" },
       { id: "st17", typeGroup: "ST", type: "ST17", page: 17, pdf: "/files/Type-ST-Insert-260130.pdf#page=17", beds: 2, baths: 2, size: "787 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key" },
-      { id: "st18", typeGroup: "ST", type: "ST18", page: 18, pdf: "/files/Type-ST-Insert-260130.pdf#page=18", beds: 1, baths: 1, size: "802 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom", recommended: true }
+      { id: "st18", typeGroup: "ST", type: "ST18", page: 18, pdf: "/files/Type-ST-Insert-260130.pdf#page=18", beds: 1, baths: 1, size: "802 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom" }
     ];
 
     const layoutCopy = {
@@ -560,6 +562,15 @@
       }
     };
 
+    const layoutShowcaseIds = {
+      studio: ["s8", "s9", "s5", "s11a", "st4", "st9"],
+      "dual-key": ["s3", "s6", "st6", "st13"],
+      "2-bedroom": ["s7", "s19", "st8", "st14"],
+      "3-bedroom": ["s1", "s4"]
+    };
+
+    const layoutShowcaseOrder = Object.values(layoutShowcaseIds).flat();
+
     const explorer = document.querySelector("[data-layout-explorer]");
     if (explorer) {
       let activeCategory = "studio";
@@ -575,60 +586,85 @@
       const count = explorer.querySelector("[data-layout-count]");
       const grid = explorer.querySelector("[data-layout-grid]");
       const detail = explorer.querySelector("[data-layout-detail]");
+      const chipLabels = new WeakMap();
 
       const setActiveButton = (buttons, attr, value) => {
         buttons.forEach((button) => {
           const isActive = button.getAttribute(attr) === value;
           button.classList.toggle("is-active", isActive);
+          if (button.hasAttribute("aria-pressed")) {
+            button.setAttribute("aria-pressed", String(isActive));
+          }
           if (button.hasAttribute("aria-selected")) {
             button.setAttribute("aria-selected", String(isActive));
           }
         });
       };
 
-      const matchesCategory = (layout) => {
-        if (activeCategory === "studio") return layout.category === "studio";
-        if (activeCategory === "dual-key") return layout.category === "dual-key";
-        if (activeCategory === "2-bedroom") return layout.category === "2-bedroom";
-        if (activeCategory === "3-bedroom") return layout.category === "3-bedroom";
-        return true;
+      const getCategoryLayouts = () => {
+        const showcaseIds = layoutShowcaseIds[activeCategory] || [];
+        return showcaseIds
+          .map((id) => centrixLayouts.find((layout) => layout.id === id))
+          .filter(Boolean);
       };
 
-      const getFilteredLayouts = () => centrixLayouts
-        .filter(matchesCategory)
+      const matchesType = (layout, type = activeType) => type === "all" || layout.typeGroup === type;
+
+      const matchesBath = (layout, bath = activeBath) => bath === "all" || String(layout.baths) === bath;
+
+      const sortLayouts = (layouts) => layouts.sort((a, b) => {
+        return layoutShowcaseOrder.indexOf(a.id) - layoutShowcaseOrder.indexOf(b.id);
+      });
+
+      const getFilteredLayouts = () => sortLayouts(getCategoryLayouts()
         .filter((layout) => activeType === "all" || layout.typeGroup === activeType)
-        .filter((layout) => activeBath === "all" || String(layout.baths) === activeBath)
-        .sort((a, b) => {
-          const typeOrder = { S: 0, ST: 1 };
-          const typeCompare = typeOrder[a.typeGroup] - typeOrder[b.typeGroup];
-          const recommendedCompare = Number(Boolean(b.recommended)) - Number(Boolean(a.recommended));
+        .filter((layout) => activeBath === "all" || String(layout.baths) === activeBath));
 
-          if (activeBath === "all") {
-            return typeCompare || a.baths - b.baths || recommendedCompare || a.page - b.page;
-          }
+      const getOptionCount = (axis, value) => getCategoryLayouts().filter((layout) => {
+        const type = axis === "type" ? value : activeType;
+        const bath = axis === "bath" ? value : activeBath;
+        return matchesType(layout, type) && matchesBath(layout, bath);
+      }).length;
 
-          return typeCompare || recommendedCompare || a.page - b.page;
+      const updateFilterButtons = (buttons, attr, activeValue, axis) => {
+        buttons.forEach((button) => {
+          const value = button.getAttribute(attr);
+          const count = getOptionCount(axis, value);
+          const isActive = value === activeValue;
+          const baseLabel = chipLabels.get(button) || button.textContent.trim();
+
+          chipLabels.set(button, baseLabel.replace(/\s+\(\d+\)$/, ""));
+          button.textContent = `${chipLabels.get(button)} (${count})`;
+          button.disabled = !isActive && count === 0;
+          button.setAttribute("aria-disabled", String(button.disabled));
         });
+
+        setActiveButton(buttons, attr, activeValue);
+      };
 
       const renderDetail = (layout) => {
         if (!layout) {
-          detail.hidden = true;
-          detail.innerHTML = "";
+          detail.innerHTML = `
+            <div class="layout-empty-state">
+              <h4>No layout selected</h4>
+              <p>Choose a valid type and toilet filter to view a curated layout.</p>
+            </div>
+          `;
           return;
         }
 
-        detail.hidden = false;
+        const imageName = encodeURIComponent(layout.type);
         detail.innerHTML = `
           <div class="layout-detail-media">
-            <img src="/images/centrix-plan.webp" loading="lazy" alt="${layout.type} floorplan preview">
+            <img src="/images/Category/${imageName}.png" loading="lazy" alt="${layout.type} floorplan layout">
           </div>
           <div class="layout-detail-copy">
             <div class="layout-detail-heading">
-              <button class="layout-back-button" type="button" data-close-detail>Back to layouts</button>
-              <h4>${layout.type} - ${layout.beds} Bedroom ${layout.baths} Toilet</h4>
+              <span>${layout.typeGroup} Type</span>
+              <h4>${layout.type}</h4>
+              <p>${layout.beds} Bedroom · ${layout.baths} Toilet</p>
             </div>
             <div class="layout-detail-meta">
-              <span>${layout.typeGroup} Type</span>
               <span>${layout.label}</span>
               <span>${layout.size}</span>
               <span>${layout.level}</span>
@@ -655,34 +691,28 @@
       const render = () => {
         const copy = layoutCopy[activeCategory];
         const layouts = getFilteredLayouts();
-        const visibleLayouts = layouts.slice(0, 3);
+        if (!layouts.some((layout) => layout.id === activeLayoutId)) {
+          activeLayoutId = layouts[0]?.id || null;
+        }
+
+        const selectedLayout = layouts.find((layout) => layout.id === activeLayoutId);
         title.textContent = copy.title;
         summary.textContent = copy.summary;
-        count.textContent = visibleLayouts.length
-          ? `Top ${visibleLayouts.length} pick${visibleLayouts.length === 1 ? "" : "s"}`
+        count.textContent = layouts.length
+          ? `${layouts.length} curated layout${layouts.length === 1 ? "" : "s"}`
           : "No layouts found";
         setActiveButton(categoryButtons, "data-category", activeCategory);
-        setActiveButton(typeButtons, "data-type-filter", activeType);
-        setActiveButton(bathButtons, "data-bath-filter", activeBath);
+        updateFilterButtons(typeButtons, "data-type-filter", activeType, "type");
+        updateFilterButtons(bathButtons, "data-bath-filter", activeBath, "bath");
 
-        grid.innerHTML = visibleLayouts.length ? visibleLayouts.map((layout) => `
-          <article class="layout-card${layout.recommended ? " is-recommended" : ""}">
-            <div class="layout-card-topline">
-              <span>${layout.typeGroup} Type</span>
-              ${layout.recommended ? "<strong>Best pick</strong>" : ""}
-            </div>
+        grid.innerHTML = layouts.length ? layouts.map((layout) => `
+          <button class="layout-card${layout.recommended ? " is-recommended" : ""}${layout.id === activeLayoutId ? " is-active" : ""}" type="button" data-layout-id="${layout.id}" aria-pressed="${layout.id === activeLayoutId}">
             <h4>${layout.type}</h4>
             <div class="layout-card-stats">
-              <span>${layout.beds} Bedroom</span>
-              <span>${layout.baths} Toilet</span>
+              <span aria-label="${layout.beds} Bedroom">${layout.beds}<img src="/images/cdsdaewqec.svg" alt="" loading="lazy"></span>
+              <span aria-label="${layout.baths} Toilet">${layout.baths}<img src="/images/toilet.svg" alt="" loading="lazy"></span>
             </div>
-            <dl class="layout-card-meta">
-              <div><dt>Size</dt><dd>${layout.size}</dd></div>
-              <div><dt>Level</dt><dd>${layout.level}</dd></div>
-              <div><dt>PDF</dt><dd>Page ${layout.page}</dd></div>
-            </dl>
-            <button class="layout-card-button" type="button" data-layout-id="${layout.id}">View Detail</button>
-          </article>
+          </button>
         `).join("") : `
           <div class="layout-empty-state">
             <h4>No matching layout</h4>
@@ -690,7 +720,6 @@
           </div>
         `;
 
-        const selectedLayout = visibleLayouts.find((layout) => layout.id === activeLayoutId);
         renderDetail(selectedLayout);
       };
 
@@ -724,13 +753,6 @@
         const button = event.target.closest("[data-layout-id]");
         if (!button) return;
         activeLayoutId = button.getAttribute("data-layout-id");
-        render();
-        detail.scrollIntoView({ behavior: "smooth", block: "nearest" });
-      });
-
-      detail.addEventListener("click", (event) => {
-        if (!event.target.closest("[data-close-detail]")) return;
-        activeLayoutId = null;
         render();
       });
 
