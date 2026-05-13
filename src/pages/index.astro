@@ -26,7 +26,7 @@
       <div class="header-content-wrapper">
         <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-2 w-nav">
           <div class="navbar-content-area">
-            <a href="/" aria-current="page" class="nav-logo w-nav-brand w--current"><img src="/images/centrix-logo.svg" loading="lazy" alt="logo" class="nav-logo-image"></a>
+            <a href="/" aria-current="page" class="nav-logo w-nav-brand w--current"><img src="/images/centrix-logo.png" loading="lazy" alt="Centrix The Station KLCC" class="nav-logo-image"></a>
             <nav role="navigation" class="nav-menu-2 nav-menu-22 w-nav-menu">
               <div class="menu-wrapper">
                 <div data-w-id="5a552f06-2d07-5788-1f67-2f7eee7a314a" class="menu-item top-menu">
@@ -415,21 +415,26 @@
     </div>
   </section>
   <section id="Nearby" class="nearby">
-    <div class="w-layout-blockcontainer container w-container">
-      <div class="nearby-content-wrapper">
-        <div class="nearby-content-box"><img src="/images/2yzkvHxz2CHaJItriY4LZwLziiY_12yzkvHxz2CHaJItriY4LZwLziiY.avif" loading="lazy" alt="Image" class="nearby-thumbnail">
-          <div data-w-id="2ed7b7c5-40cb-b757-685b-14465a54de4d" class="nearby-meta-box">
-            <div data-w-id="3bf00313-cd80-fcc3-4f42-1969112e2f5d" style="opacity:0" class="nearby-address">Dang Wangi LRT</div>
-            <div data-w-id="a5eb5415-0997-8934-b1e6-6ca17edee465" style="opacity:0" class="nearby-address-two">Bukit Nanas Monorail</div>
-            <div data-w-id="94562aae-5438-9618-7922-f11f2e85d208" style="opacity:0" class="nearby-address-three">KLCC 2 stops</div>
-            <div data-w-id="da344f1c-f95c-1401-daa5-be6c0c39d378" style="opacity:0" class="nearby-address-four">KLCC 2 stops</div>
-            <div data-w-id="4ee0debf-e211-6c85-4ce8-6a4390c4ad3d" style="opacity:0" class="nearby-address-five">Centrix KLCC</div>
-            <div data-w-id="d4acc8cf-0529-91ad-810b-baebbd12ddbb" style="opacity:0" class="nearby-address-six">TRX connected</div>
-            <div data-w-id="e608bfaa-85cf-ecab-2f8c-f7dd2aa1a1f6" style="opacity:0" class="nearby-address-seven">TRX connected</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <a href="https://centrixklcc.com/vr/centrix.html" target="_blank" rel="noopener" class="nearby-city-life-panel" aria-label="Open the Centrix KLCC 360 view">
+      <span class="nearby-city-life-copy">
+        <span class="nearby-city-life-kicker">360 location view</span>
+        <span class="nearby-city-life-title" aria-hidden="true">
+          <span>Connecting</span>
+          <strong>City Life</strong>
+        </span>
+        <span class="nearby-city-life-text">See Centrix KLCC in context with the city skyline, transit lines, KLCC, TRX, KL Tower and Merdeka 118 around it.</span>
+        <span class="nearby-city-life-action">
+          <img src="/images/icon-360.png" loading="lazy" alt="">
+          <span>Open 360&deg; view</span>
+        </span>
+      </span>
+      <span class="nearby-city-life-media">
+        <picture>
+          <source media="(max-width: 767px)" srcset="/images/pic-aerial-view-blank-sm.jpg">
+          <img src="/images/pic-aerial-view-blank.jpg" loading="lazy" alt="Aerial view of Centrix KLCC connected to KLCC, The Exchange TRX, KL Tower, and Merdeka 118" class="nearby-city-life-image">
+        </picture>
+      </span>
+    </a>
   </section>
   <section id="Planing" class="floor-planing">
     <div class="w-layout-blockcontainer container w-container">
@@ -442,149 +447,48 @@
           <h2 class="floor-planing-section-title">Explore layouts shaped for city rhythm</h2>
         </div>
         <div class="foor-planing-content">
-          <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="floor-design-tab w-tabs">
-            <div class="tab-menu-box w-tab-menu">
-              <a data-w-tab="Tab 1" class="single-tab-menu w-inline-block w-tab-link w--current">
-                <div>Studio</div>
-                <div class="tab-icon">→</div>
-              </a>
-              <a data-w-tab="Tab 2" class="single-tab-menu w-inline-block w-tab-link">
-                <div class="tab-title">Dual Key</div>
-                <div class="tab-icon">→</div>
-              </a>
-              <a data-w-tab="Tab 3" class="single-tab-menu w-inline-block w-tab-link">
-                <div>2 Bedroom</div>
-                <div class="tab-icon">→</div>
-              </a>
-              <a data-w-tab="Tab 4" class="single-tab-menu w-inline-block w-tab-link">
-                <div>3 Bedroom</div>
-                <div class="tab-icon">→</div>
-              </a>
+          <div class="floor-design-tab layout-explorer" data-layout-explorer>
+            <div class="tab-menu-box layout-category-menu" role="tablist" aria-label="Layout categories">
+              <button class="single-tab-menu layout-category-button is-active" type="button" data-category="studio" aria-selected="true">
+                <span>Studio / 1BR</span>
+                <span class="tab-icon">→</span>
+              </button>
+              <button class="single-tab-menu layout-category-button" type="button" data-category="dual-key" aria-selected="false">
+                <span class="tab-title">Dual Key</span>
+                <span class="tab-icon">→</span>
+              </button>
+              <button class="single-tab-menu layout-category-button" type="button" data-category="2-bedroom" aria-selected="false">
+                <span>2 Bedroom</span>
+                <span class="tab-icon">→</span>
+              </button>
+              <button class="single-tab-menu layout-category-button" type="button" data-category="3-bedroom" aria-selected="false">
+                <span>3 Bedroom</span>
+                <span class="tab-icon">→</span>
+              </button>
             </div>
-            <div class="tab-content-box w-tab-content">
-              <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
-                <div class="single-tab-content">
-                  <div class="tab-content-thumbnail"><img src="/images/centrix-plan.webp" loading="lazy" style="opacity:0" data-w-id="0bad9c32-45c2-2d5f-f062-7bf66ae7d36f" alt="Design Thumbnail" class="tab-thumbnail"></div>
-                  <div class="single-tab-content-box">
-                    <div class="tab-content-text-list">
-                      <p data-w-id="76570401-69c3-4fc8-e5cc-679e9e1c5839" style="opacity:0" class="tab-content-text">Studio suites range from 571 to 871 sq ft, shaped for efficient KLCC-connected living and work-ready SOHO use.</p>
-                      <ul data-w-id="8b5d5fe6-146f-a87c-f376-899c01ebbaff" style="opacity:0" role="list" class="design-content-list">
-                        <li class="list-item">Type: Studio / 1BR</li>
-                        <li class="list-item">Size: 571 - 871 sq ft</li>
-                        <li class="list-item">Location: Levels 12 - 44</li>
-                        <li class="list-item">Feature: Direct LRT access</li>
-                        <li class="list-item">Use: City living / SOHO</li>
-                      </ul>
+            <div class="tab-content-box layout-panel">
+              <div class="single-tab-content layout-selector-content">
+                <div class="layout-panel-top">
+                  <div>
+                    <div class="layout-eyebrow" data-layout-count>0 layouts</div>
+                    <h3 class="layout-panel-title" data-layout-title>Studio / 1BR Layouts</h3>
+                    <p class="tab-content-text layout-panel-summary" data-layout-summary>Compare S and ST layouts, then open the exact PDF page for the full floorplan.</p>
+                  </div>
+                  <div class="layout-filter-group" aria-label="Layout filters">
+                    <div class="layout-chip-row" data-type-filters>
+                      <button class="layout-chip is-active" type="button" data-type-filter="all">All Types</button>
+                      <button class="layout-chip" type="button" data-type-filter="S">S Type</button>
+                      <button class="layout-chip" type="button" data-type-filter="ST">ST Type</button>
                     </div>
-                    <div data-w-id="a0975992-ab1a-e9bf-e2e2-59ac108b65e7" style="opacity:0" class="tab-button-wrapper">
-                      <a data-w-id="3094d213-f2f7-ba3f-ecc5-d1cc79376aed" href="#Contact" class="black-button w-inline-block">
-                        <div class="button-text-wrap">
-                          <div class="button-front-text">register now</div>
-                          <div class="button-hidden-text">register now</div>
-                        </div>
-                      </a>
-                      <a data-w-id="58a25e76-c399-ee50-8fdb-943bd0f46cc3" href="tel:+601133139313" class="white-button w-inline-block">
-                        <div class="button-text-wrap">
-                          <div class="white-front-text">Call Sales</div>
-                          <div class="white-hidden-text">Call Sales</div>
-                        </div>
-                      </a>
+                    <div class="layout-chip-row" data-bath-filters>
+                      <button class="layout-chip is-active" type="button" data-bath-filter="all">All Toilets</button>
+                      <button class="layout-chip" type="button" data-bath-filter="1">1 Toilet</button>
+                      <button class="layout-chip" type="button" data-bath-filter="2">2 Toilets</button>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div data-w-tab="Tab 2" class="w-tab-pane">
-                <div class="single-tab-content">
-                  <div class="tab-content-thumbnail"><img src="/images/centrix-plan.webp" loading="lazy" style="opacity:0" data-w-id="f249910f-503d-6413-8ab1-f0561baa3069" alt="Design Thumbnail" class="tab-thumbnail"></div>
-                  <div class="single-tab-content-box">
-                    <div class="tab-content-text-list">
-                      <p data-w-id="f249910f-503d-6413-8ab1-f0561baa306c" style="opacity:0" class="tab-content-text">Dual-key layouts range from 593 to 1,039 sq ft, supporting flexible occupancy and managed rental potential.</p>
-                      <ul data-w-id="f249910f-503d-6413-8ab1-f0561baa306e" style="opacity:0" role="list" class="design-content-list">
-                        <li class="list-item">Type: Dual Key</li>
-                        <li class="list-item">Size: 593 - 1,039 sq ft</li>
-                        <li class="list-item">Owner model: optional hospitality management</li>
-                        <li class="list-item">Car park: one right-of-use bay</li>
-                        <li class="list-item">Use: stay, rent, or both</li>
-                      </ul>
-                    </div>
-                    <div data-w-id="f249910f-503d-6413-8ab1-f0561baa3079" style="opacity:0" class="tab-button-wrapper">
-                      <a data-w-id="3094d213-f2f7-ba3f-ecc5-d1cc79376aed" href="#Contact" class="black-button w-inline-block">
-                        <div class="button-text-wrap">
-                          <div class="button-front-text">register now</div>
-                          <div class="button-hidden-text">register now</div>
-                        </div>
-                      </a>
-                      <a data-w-id="58a25e76-c399-ee50-8fdb-943bd0f46cc3" href="tel:+601133139313" class="white-button w-inline-block">
-                        <div class="button-text-wrap">
-                          <div class="white-front-text">Call Sales</div>
-                          <div class="white-hidden-text">Call Sales</div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div data-w-tab="Tab 3" class="w-tab-pane">
-                <div class="single-tab-content">
-                  <div class="tab-content-thumbnail"><img src="/images/centrix-plan.webp" loading="lazy" style="opacity:0" data-w-id="68cdf293-5b68-8fc8-7dd6-c05bc399b1dd" alt="Design Thumbnail" class="tab-thumbnail"></div>
-                  <div class="single-tab-content-box">
-                    <div class="tab-content-text-list">
-                      <p data-w-id="68cdf293-5b68-8fc8-7dd6-c05bc399b1e0" style="opacity:0" class="tab-content-text">Two-bedroom layouts range from 718 to 1,019 sq ft for residents who want more room without losing city access.</p>
-                      <ul data-w-id="68cdf293-5b68-8fc8-7dd6-c05bc399b1e2" style="opacity:0" role="list" class="design-content-list">
-                        <li class="list-item">Type: 2 Bedroom</li>
-                        <li class="list-item">Size: 718 - 1,019 sq ft</li>
-                        <li class="list-item">Connectivity: KLCC two LRT stops</li>
-                        <li class="list-item">Facilities: Level 11 and Level 45</li>
-                        <li class="list-item">Use: urban family / owner stay</li>
-                      </ul>
-                    </div>
-                    <div data-w-id="68cdf293-5b68-8fc8-7dd6-c05bc399b1ed" style="opacity:0" class="tab-button-wrapper">
-                      <a data-w-id="3094d213-f2f7-ba3f-ecc5-d1cc79376aed" href="#Contact" class="black-button w-inline-block">
-                        <div class="button-text-wrap">
-                          <div class="button-front-text">register now</div>
-                          <div class="button-hidden-text">register now</div>
-                        </div>
-                      </a>
-                      <a data-w-id="58a25e76-c399-ee50-8fdb-943bd0f46cc3" href="tel:+601133139313" class="white-button w-inline-block">
-                        <div class="button-text-wrap">
-                          <div class="white-front-text">Call Sales</div>
-                          <div class="white-hidden-text">Call Sales</div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div data-w-tab="Tab 4" class="w-tab-pane">
-                <div class="single-tab-content">
-                  <div class="tab-content-thumbnail"><img src="/images/centrix-plan.webp" loading="lazy" style="opacity:0" data-w-id="86723a3d-16d9-60f5-03e1-8560de5f89ba" alt="Design Thumbnail" class="tab-thumbnail"></div>
-                  <div class="single-tab-content-box">
-                    <div class="tab-content-text-list">
-                      <p data-w-id="86723a3d-16d9-60f5-03e1-8560de5f89bd" style="opacity:0" class="tab-content-text">Three-bedroom layouts range from 1,001 to 1,187 sq ft, offering the broadest residential footprint in the mix.</p>
-                      <ul data-w-id="86723a3d-16d9-60f5-03e1-8560de5f89bf" style="opacity:0" role="list" class="design-content-list">
-                        <li class="list-item">Type: 3 Bedroom</li>
-                        <li class="list-item">Size: 1,001 - 1,187 sq ft</li>
-                        <li class="list-item">Tenure: 99-year leasehold</li>
-                        <li class="list-item">Completion: expected 2029</li>
-                        <li class="list-item">Use: larger city residence</li>
-                      </ul>
-                    </div>
-                    <div data-w-id="86723a3d-16d9-60f5-03e1-8560de5f89ca" style="opacity:0" class="tab-button-wrapper">
-                      <a data-w-id="3094d213-f2f7-ba3f-ecc5-d1cc79376aed" href="#Contact" class="black-button w-inline-block">
-                        <div class="button-text-wrap">
-                          <div class="button-front-text">register now</div>
-                          <div class="button-hidden-text">register now</div>
-                        </div>
-                      </a>
-                      <a data-w-id="58a25e76-c399-ee50-8fdb-943bd0f46cc3" href="tel:+601133139313" class="white-button w-inline-block"><img src="/images/call.svg" loading="lazy" alt="Button Icon" class="button-icon">
-                        <div class="button-text-wrap">
-                          <div class="white-front-text">Call Sales</div>
-                          <div class="white-hidden-text">Call Sales</div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <div class="layout-card-grid" data-layout-grid></div>
+                <div class="layout-detail-panel" data-layout-detail hidden></div>
               </div>
             </div>
           </div>
@@ -592,24 +496,260 @@
       </div>
     </div>
   </section>
-  <Fragment set:html={`<section id="Video" class="video">
-    <a href="#" data-w-id="1a61f1f0-e8a7-efa9-7dea-6ffba3034e86" style="opacity:0" class="video-light-box w-inline-block w-lightbox"><img loading="lazy" src="/images/play_1play.png" alt="Play Icon" class="play-icon">
-      <script type="application/json" class="w-json">{
-  "items": [
-    {
-      "url": "https://www.youtube.com/watch?v=JFW-glaLn38",
-      "originalUrl": "https://www.youtube.com/watch?v=JFW-glaLn38",
-      "width": 940,
-      "height": 528,
-      "thumbnailUrl": "https://i.ytimg.com/vi/JFW-glaLn38/hqdefault.jpg",
-      "html": "<iframe class=\\"embedly-embed\\" src=\\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FJFW-glaLn38%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJFW-glaLn38&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FJFW-glaLn38%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube\\" width=\\"940\\" height=\\"528\\" scrolling=\\"no\\" title=\\"YouTube embed\\" frameborder=\\"0\\" allow=\\"autoplay; fullscreen; encrypted-media; picture-in-picture;\\" allowfullscreen=\\"true\\"><\/iframe>",
-      "type": "video"
+  <script is:inline>
+    const centrixLayouts = [
+      { id: "s1", typeGroup: "S", type: "S1", page: 1, pdf: "/files/Insert-Type-S-2801.pdf#page=1", beds: 3, baths: 2, size: "1,000 sq ft", level: "Level 12-42", category: "3-bedroom", label: "3 Bedroom", recommended: true },
+      { id: "s2", typeGroup: "S", type: "S2", page: 2, pdf: "/files/Insert-Type-S-2801.pdf#page=2", beds: 2, baths: 2, size: "656 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
+      { id: "s3", typeGroup: "S", type: "S3", page: 3, pdf: "/files/Insert-Type-S-2801.pdf#page=3", beds: 2, baths: 2, size: "988 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key", recommended: true },
+      { id: "s4", typeGroup: "S", type: "S4", page: 4, pdf: "/files/Insert-Type-S-2801.pdf#page=4", beds: 3, baths: 2, size: "1,033 sq ft", level: "Level 12-42", category: "3-bedroom", label: "3 Bedroom", recommended: true },
+      { id: "s5", typeGroup: "S", type: "S5", page: 5, pdf: "/files/Insert-Type-S-2801.pdf#page=5", beds: 1, baths: 2, size: "819 sq ft", level: "Level 23-42", category: "studio", label: "1 Bedroom", recommended: true },
+      { id: "s5a", typeGroup: "S", type: "S5A", page: 6, pdf: "/files/Insert-Type-S-2801.pdf#page=6", beds: 1, baths: 2, size: "751 sq ft", level: "Level 12-22", category: "studio", label: "1 Bedroom" },
+      { id: "s6", typeGroup: "S", type: "S6", page: 7, pdf: "/files/Insert-Type-S-2801.pdf#page=7", beds: 2, baths: 2, size: "1,039 sq ft", level: "Level 23-42", category: "dual-key", label: "Dual Key", recommended: true },
+      { id: "s6a", typeGroup: "S", type: "S6A", page: 8, pdf: "/files/Insert-Type-S-2801.pdf#page=8", beds: 2, baths: 2, size: "845 sq ft", level: "Level 12-22", category: "dual-key", label: "Dual Key" },
+      { id: "s7", typeGroup: "S", type: "S7", page: 9, pdf: "/files/Insert-Type-S-2801.pdf#page=9", beds: 2, baths: 2, size: "843 sq ft", level: "Level 12-42", category: "2-bedroom", label: "2 Bedroom" },
+      { id: "s8", typeGroup: "S", type: "S8", page: 10, pdf: "/files/Insert-Type-S-2801.pdf#page=10", beds: 1, baths: 1, size: "639 sq ft", level: "Level 12-42", category: "studio", label: "Studio", recommended: true },
+      { id: "s9", typeGroup: "S", type: "S9", page: 11, pdf: "/files/Insert-Type-S-2801.pdf#page=11", beds: 1, baths: 1, size: "752 sq ft", level: "Level 12-42", category: "studio", label: "Studio", recommended: true },
+      { id: "s10", typeGroup: "S", type: "S10", page: 12, pdf: "/files/Insert-Type-S-2801.pdf#page=12", beds: 1, baths: 1, size: "855 sq ft", level: "Level 12-42", category: "studio", label: "Studio", recommended: true },
+      { id: "s11", typeGroup: "S", type: "S11", page: 13, pdf: "/files/Insert-Type-S-2801.pdf#page=13", beds: 2, baths: 2, size: "669 sq ft", level: "Level 12-22", category: "dual-key", label: "Dual Key" },
+      { id: "s11a", typeGroup: "S", type: "S11A", page: 14, pdf: "/files/Insert-Type-S-2801.pdf#page=14", beds: 1, baths: 2, size: "997 sq ft", level: "Level 12-42", category: "studio", label: "Studio", recommended: true },
+      { id: "s11b", typeGroup: "S", type: "S11B", page: 15, pdf: "/files/Insert-Type-S-2801.pdf#page=15", beds: 1, baths: 2, size: "871 sq ft", level: "Level 23-42", category: "studio", label: "1+1 Bedroom", recommended: true },
+      { id: "s12", typeGroup: "S", type: "S12", page: 16, pdf: "/files/Insert-Type-S-2801.pdf#page=16", beds: 1, baths: 1, size: "571 sq ft", level: "Level 23-42", category: "studio", label: "Studio" },
+      { id: "s13", typeGroup: "S", type: "S13", page: 17, pdf: "/files/Insert-Type-S-2801.pdf#page=17", beds: 2, baths: 2, size: "646 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
+      { id: "s14", typeGroup: "S", type: "S14", page: 18, pdf: "/files/Insert-Type-S-2801.pdf#page=18", beds: 1, baths: 1, size: "564 sq ft", level: "Level 12-42", category: "studio", label: "1 Bedroom" },
+      { id: "s15", typeGroup: "S", type: "S15/15A", page: 19, pdf: "/files/Insert-Type-S-2801.pdf#page=19", beds: 2, baths: 2, size: "891 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key", recommended: true },
+      { id: "s16", typeGroup: "S", type: "S16", page: 20, pdf: "/files/Insert-Type-S-2801.pdf#page=20", beds: 2, baths: 2, size: "593 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
+      { id: "s17", typeGroup: "S", type: "S17", page: 21, pdf: "/files/Insert-Type-S-2801.pdf#page=21", beds: 2, baths: 2, size: "646 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
+      { id: "s18", typeGroup: "S", type: "S18", page: 22, pdf: "/files/Insert-Type-S-2801.pdf#page=22", beds: 2, baths: 2, size: "777 sq ft", level: "Level 12-42", category: "dual-key", label: "Dual Key" },
+      { id: "s19", typeGroup: "S", type: "S19", page: 23, pdf: "/files/Insert-Type-S-2801.pdf#page=23", beds: 2, baths: 2, size: "810 sq ft", level: "Level 12-42", category: "2-bedroom", label: "2 Bedroom" },
+      { id: "st1", typeGroup: "ST", type: "ST1", page: 1, pdf: "/files/Type-ST-Insert-260130.pdf#page=1", beds: 1, baths: 1, size: "599 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom" },
+      { id: "st2", typeGroup: "ST", type: "ST2", page: 2, pdf: "/files/Type-ST-Insert-260130.pdf#page=2", beds: 1, baths: 1, size: "568 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom" },
+      { id: "st3", typeGroup: "ST", type: "ST3", page: 3, pdf: "/files/Type-ST-Insert-260130.pdf#page=3", beds: 1, baths: 1, size: "578 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom" },
+      { id: "st4", typeGroup: "ST", type: "ST4", page: 4, pdf: "/files/Type-ST-Insert-260130.pdf#page=4", beds: 1, baths: 1, size: "790 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom", recommended: true },
+      { id: "st5", typeGroup: "ST", type: "ST5", page: 5, pdf: "/files/Type-ST-Insert-260130.pdf#page=5", beds: 1, baths: 1, size: "654 sq ft", level: "Level 3A-10", category: "studio", label: "Studio" },
+      { id: "st6", typeGroup: "ST", type: "ST6", page: 6, pdf: "/files/Type-ST-Insert-260130.pdf#page=6", beds: 2, baths: 2, size: "1,072 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key", recommended: true },
+      { id: "st7", typeGroup: "ST", type: "ST7", page: 7, pdf: "/files/Type-ST-Insert-260130.pdf#page=7", beds: 2, baths: 2, size: "888 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key" },
+      { id: "st8", typeGroup: "ST", type: "ST8", page: 8, pdf: "/files/Type-ST-Insert-260130.pdf#page=8", beds: 2, baths: 1, size: "709 sq ft", level: "Level 3A-10", category: "2-bedroom", label: "2 Bedroom", recommended: true },
+      { id: "st9", typeGroup: "ST", type: "ST9", page: 9, pdf: "/files/Type-ST-Insert-260130.pdf#page=9", beds: 1, baths: 1, size: "717 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom", recommended: true },
+      { id: "st10", typeGroup: "ST", type: "ST10", page: 10, pdf: "/files/Type-ST-Insert-260130.pdf#page=10", beds: 1, baths: 1, size: "577 sq ft", level: "Level 3A-10", category: "studio", label: "Studio" },
+      { id: "st11", typeGroup: "ST", type: "ST11", page: 11, pdf: "/files/Type-ST-Insert-260130.pdf#page=11", beds: 1, baths: 1, size: "604 sq ft", level: "Level 3A-10", category: "studio", label: "Studio" },
+      { id: "st12", typeGroup: "ST", type: "ST12", page: 12, pdf: "/files/Type-ST-Insert-260130.pdf#page=12", beds: 2, baths: 2, size: "608 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key" },
+      { id: "st13", typeGroup: "ST", type: "ST13", page: 13, pdf: "/files/Type-ST-Insert-260130.pdf#page=13", beds: 2, baths: 2, size: "916 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key", recommended: true },
+      { id: "st14", typeGroup: "ST", type: "ST14", page: 14, pdf: "/files/Type-ST-Insert-260130.pdf#page=14", beds: 2, baths: 1, size: "720 sq ft", level: "Level 3A-10", category: "2-bedroom", label: "2 Bedroom", recommended: true },
+      { id: "st15", typeGroup: "ST", type: "ST15", page: 15, pdf: "/files/Type-ST-Insert-260130.pdf#page=15", beds: 2, baths: 2, size: "1,193 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key", recommended: true },
+      { id: "st16", typeGroup: "ST", type: "ST16", page: 16, pdf: "/files/Type-ST-Insert-260130.pdf#page=16", beds: 2, baths: 2, size: "637 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key" },
+      { id: "st17", typeGroup: "ST", type: "ST17", page: 17, pdf: "/files/Type-ST-Insert-260130.pdf#page=17", beds: 2, baths: 2, size: "787 sq ft", level: "Level 3A-10", category: "dual-key", label: "Dual Key" },
+      { id: "st18", typeGroup: "ST", type: "ST18", page: 18, pdf: "/files/Type-ST-Insert-260130.pdf#page=18", beds: 1, baths: 1, size: "802 sq ft", level: "Level 3A-10", category: "studio", label: "1 Bedroom", recommended: true }
+    ];
+
+    const layoutCopy = {
+      studio: {
+        title: "Studio / 1BR Layouts",
+        summary: "Compare compact S layouts on upper levels with ST layouts from the podium range, then open the exact floorplan page."
+      },
+      "dual-key": {
+        title: "Dual Key Layouts",
+        summary: "Flexible dual-key options grouped by S and ST type for stay-and-rent or managed rental planning."
+      },
+      "2-bedroom": {
+        title: "2 Bedroom Layouts",
+        summary: "Browse 2-bedroom options by toilet count, type series, level range, and PDF page."
+      },
+      "3-bedroom": {
+        title: "3 Bedroom Layouts",
+        summary: "The 3-bedroom choices are in S Type only, with larger footprints for owner-stay planning."
+      }
+    };
+
+    const explorer = document.querySelector("[data-layout-explorer]");
+    if (explorer) {
+      let activeCategory = "studio";
+      let activeType = "all";
+      let activeBath = "all";
+      let activeLayoutId = null;
+
+      const categoryButtons = explorer.querySelectorAll("[data-category]");
+      const typeButtons = explorer.querySelectorAll("[data-type-filter]");
+      const bathButtons = explorer.querySelectorAll("[data-bath-filter]");
+      const title = explorer.querySelector("[data-layout-title]");
+      const summary = explorer.querySelector("[data-layout-summary]");
+      const count = explorer.querySelector("[data-layout-count]");
+      const grid = explorer.querySelector("[data-layout-grid]");
+      const detail = explorer.querySelector("[data-layout-detail]");
+
+      const setActiveButton = (buttons, attr, value) => {
+        buttons.forEach((button) => {
+          const isActive = button.getAttribute(attr) === value;
+          button.classList.toggle("is-active", isActive);
+          if (button.hasAttribute("aria-selected")) {
+            button.setAttribute("aria-selected", String(isActive));
+          }
+        });
+      };
+
+      const matchesCategory = (layout) => {
+        if (activeCategory === "studio") return layout.category === "studio";
+        if (activeCategory === "dual-key") return layout.category === "dual-key";
+        if (activeCategory === "2-bedroom") return layout.category === "2-bedroom";
+        if (activeCategory === "3-bedroom") return layout.category === "3-bedroom";
+        return true;
+      };
+
+      const getFilteredLayouts = () => centrixLayouts
+        .filter(matchesCategory)
+        .filter((layout) => activeType === "all" || layout.typeGroup === activeType)
+        .filter((layout) => activeBath === "all" || String(layout.baths) === activeBath)
+        .sort((a, b) => {
+          const typeOrder = { S: 0, ST: 1 };
+          const typeCompare = typeOrder[a.typeGroup] - typeOrder[b.typeGroup];
+          const recommendedCompare = Number(Boolean(b.recommended)) - Number(Boolean(a.recommended));
+
+          if (activeBath === "all") {
+            return typeCompare || a.baths - b.baths || recommendedCompare || a.page - b.page;
+          }
+
+          return typeCompare || recommendedCompare || a.page - b.page;
+        });
+
+      const renderDetail = (layout) => {
+        if (!layout) {
+          detail.hidden = true;
+          detail.innerHTML = "";
+          return;
+        }
+
+        detail.hidden = false;
+        detail.innerHTML = `
+          <div class="layout-detail-media">
+            <img src="/images/centrix-plan.webp" loading="lazy" alt="${layout.type} floorplan preview">
+          </div>
+          <div class="layout-detail-copy">
+            <div class="layout-detail-heading">
+              <button class="layout-back-button" type="button" data-close-detail>Back to layouts</button>
+              <h4>${layout.type} - ${layout.beds} Bedroom ${layout.baths} Toilet</h4>
+            </div>
+            <div class="layout-detail-meta">
+              <span>${layout.typeGroup} Type</span>
+              <span>${layout.label}</span>
+              <span>${layout.size}</span>
+              <span>${layout.level}</span>
+              <span>PDF Page ${layout.page}</span>
+            </div>
+            <div class="layout-detail-actions">
+              <a href="${layout.pdf}" target="_blank" rel="noopener" class="black-button layout-pdf-button w-inline-block">
+                <div class="button-text-wrap">
+                  <div class="button-front-text">View PDF page</div>
+                  <div class="button-hidden-text">View PDF page</div>
+                </div>
+              </a>
+              <a href="#Contact" class="white-button layout-contact-button w-inline-block">
+                <div class="button-text-wrap">
+                  <div class="white-front-text">Register Interest</div>
+                  <div class="white-hidden-text">Register Interest</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        `;
+      };
+
+      const render = () => {
+        const copy = layoutCopy[activeCategory];
+        const layouts = getFilteredLayouts();
+        const visibleLayouts = layouts.slice(0, 3);
+        title.textContent = copy.title;
+        summary.textContent = copy.summary;
+        count.textContent = visibleLayouts.length
+          ? `Top ${visibleLayouts.length} pick${visibleLayouts.length === 1 ? "" : "s"}`
+          : "No layouts found";
+        setActiveButton(categoryButtons, "data-category", activeCategory);
+        setActiveButton(typeButtons, "data-type-filter", activeType);
+        setActiveButton(bathButtons, "data-bath-filter", activeBath);
+
+        grid.innerHTML = visibleLayouts.length ? visibleLayouts.map((layout) => `
+          <article class="layout-card${layout.recommended ? " is-recommended" : ""}">
+            <div class="layout-card-topline">
+              <span>${layout.typeGroup} Type</span>
+              ${layout.recommended ? "<strong>Best pick</strong>" : ""}
+            </div>
+            <h4>${layout.type}</h4>
+            <div class="layout-card-stats">
+              <span>${layout.beds} Bedroom</span>
+              <span>${layout.baths} Toilet</span>
+            </div>
+            <dl class="layout-card-meta">
+              <div><dt>Size</dt><dd>${layout.size}</dd></div>
+              <div><dt>Level</dt><dd>${layout.level}</dd></div>
+              <div><dt>PDF</dt><dd>Page ${layout.page}</dd></div>
+            </dl>
+            <button class="layout-card-button" type="button" data-layout-id="${layout.id}">View Detail</button>
+          </article>
+        `).join("") : `
+          <div class="layout-empty-state">
+            <h4>No matching layout</h4>
+            <p>There is no ${copy.title.toLowerCase()} option for this toilet/type filter in the current S and ST PDFs.</p>
+          </div>
+        `;
+
+        const selectedLayout = visibleLayouts.find((layout) => layout.id === activeLayoutId);
+        renderDetail(selectedLayout);
+      };
+
+      categoryButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeCategory = button.getAttribute("data-category");
+          activeType = "all";
+          activeBath = "all";
+          activeLayoutId = null;
+          render();
+        });
+      });
+
+      typeButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeType = button.getAttribute("data-type-filter");
+          activeLayoutId = null;
+          render();
+        });
+      });
+
+      bathButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          activeBath = button.getAttribute("data-bath-filter");
+          activeLayoutId = null;
+          render();
+        });
+      });
+
+      grid.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-layout-id]");
+        if (!button) return;
+        activeLayoutId = button.getAttribute("data-layout-id");
+        render();
+        detail.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      });
+
+      detail.addEventListener("click", (event) => {
+        if (!event.target.closest("[data-close-detail]")) return;
+        activeLayoutId = null;
+        render();
+      });
+
+      render();
     }
-  ],
-  "group": ""
-}</script>
-    </a>
-  </section>`} />
+  </script>
+  <section id="Video" class="video">
+    <video
+      class="video-player"
+      controls
+      playsinline
+      preload="metadata"
+      poster="/images/centrix-introduction-poster.png"
+      aria-label="Centrix KLCC introduction video"
+    >
+      <source src="/videos/centrix-introduction.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
   <section id="Contact" class="contact">
     <div class="w-layout-blockcontainer container w-container">
       <div class="contact-content-wrapper">
@@ -772,7 +912,7 @@
         <div class="footer-content-wrapper">
           <div class="footer-content-box">
             <div class="footer-logo-text">
-              <a href="/" aria-current="page" class="footer-logo w-inline-block w--current"><img src="/images/centrix-logo.svg" loading="lazy" data-w-id="78290cde-b196-bfe4-3921-383ad7d5e98c" alt="Footer Logo" class="footer-logo-icon"></a>
+              <a href="/" aria-current="page" class="footer-logo w-inline-block w--current"><img src="/images/centrix-logo.png" loading="lazy" data-w-id="78290cde-b196-bfe4-3921-383ad7d5e98c" alt="Centrix The Station KLCC" class="footer-logo-icon"></a>
               <h5 data-w-id="78290cde-b196-bfe4-3921-383ad7d5e98d" class="footer-text">Connected living above Dang Wangi LRT, composed for city life and managed ownership potential.</h5>
             </div>
             <div class="footer-contact-box">
