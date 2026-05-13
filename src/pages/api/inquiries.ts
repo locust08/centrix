@@ -1,18 +1,18 @@
 import type { APIRoute } from 'astro'
 
-const recipient = 'ava@locus-t.com.my'
+const recipient = import.meta.env.INQUIRY_RECIPIENT_EMAIL
 
 export const POST: APIRoute = async ({ request }) => {
   const form = await request.formData()
   const payload = Object.fromEntries(form.entries())
 
-  if (!payload.name || !payload.Email) {
+  if (!payload.name || !payload.Email || !payload.ContactNumber || !payload.TermsAccepted) {
     return new Response(JSON.stringify({ ok: false, error: 'Missing required fields' }), { status: 400 })
   }
 
   // Production storage is intended to be handled by the Payload `inquiries` collection.
   // This endpoint keeps the frontend form contract stable for Cloudflare Workers.
-  if (import.meta.env.RESEND_API_KEY) {
+  if (import.meta.env.RESEND_API_KEY && recipient) {
     try {
       await fetch('https://api.resend.com/emails', {
         method: 'POST',

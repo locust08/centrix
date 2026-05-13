@@ -198,8 +198,8 @@ export default buildConfig({
       slug: 'site-settings',
       fields: [
         { name: 'siteName', type: 'text', defaultValue: 'Centrix The Station KLCC' },
-        { name: 'phone', type: 'text', defaultValue: '+60 11-3313 9313' },
-        { name: 'email', type: 'email', defaultValue: 'ava@locus-t.com.my' },
+        { name: 'phone', type: 'text', defaultValue: '+60 11-4066 6308' },
+        { name: 'website', type: 'text', defaultValue: 'https://www.centrixklccstation.com.my/' },
         { name: 'logo', type: 'relationship', relationTo: 'media' },
         { name: 'favicon', type: 'relationship', relationTo: 'media' },
         {
