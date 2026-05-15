@@ -2253,6 +2253,13 @@ p {
   display: none;
 }
 
+.floating-call-icon {
+  width: 22px;
+  height: 22px;
+  filter: invert(1);
+  display: block;
+}
+
 .funfact {
   background-color: var(--theme-color-03);
   padding: 0 30px;
@@ -5257,15 +5264,18 @@ p {
   }
 
   .floating-contact-actions {
-    width: calc(100% - 32px);
+    flex-flow: column;
+    align-items: flex-end;
+    width: auto;
     inset: auto 16px 16px 16px;
   }
 
   .floating-contact-link {
-    flex: 1;
+    flex: none;
   }
 
   .floating-whatsapp-link {
+    order: 2;
     flex: 0 0 54px;
     width: 54px;
     height: 54px;
@@ -5278,7 +5288,15 @@ p {
   }
 
   .floating-call-link {
-    display: block;
+    order: 1;
+    background-color: var(--theme-color-02);
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    padding: 0;
+    display: flex;
   }
 
   .single-funfact-card {
