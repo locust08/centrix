@@ -2258,6 +2258,7 @@ p {
   height: 22px;
   filter: invert(1);
   display: block;
+  transform: scaleX(-1);
 }
 
 .funfact {
